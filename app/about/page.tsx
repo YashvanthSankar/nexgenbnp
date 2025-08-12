@@ -15,7 +15,7 @@ export default function About() {
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
               With over two decades of excellence in construction and real estate development, 
-              we've built our reputation on quality, innovation, and unwavering commitment to our clients.
+              we&apos;ve built our reputation on quality, innovation, and unwavering commitment to our clients.
             </p>
           </div>
         </div>
@@ -32,11 +32,11 @@ export default function About() {
                 to revolutionize the construction industry through innovative building techniques and uncompromising quality standards.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                From our humble beginnings building custom homes, we've grown into one of the region's most trusted 
+                From our humble beginnings building custom homes, we&apos;ve grown into one of the region&apos;s most trusted 
                 construction companies, completing over 500 projects ranging from luxury residences to large-scale commercial developments.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Today, we continue to push the boundaries of what's possible in construction, 
+                Today, we continue to push the boundaries of what&apos;s possible in construction, 
                 embracing sustainable building practices and cutting-edge technology while maintaining the personal touch that sets us apart.
               </p>
             </div>
@@ -209,7 +209,7 @@ export default function About() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Let's discuss how we can bring your vision to life with our expertise and dedication.
+            Let&apos;s discuss how we can bring your vision to life with our expertise and dedication.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

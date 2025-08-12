@@ -15,7 +15,7 @@ export default function Contact() {
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Ready to start your next construction project? Get in touch with our team of experts 
-              and let's discuss how we can bring your vision to life.
+              and let&apos;s discuss how we can bring your vision to life.
             </p>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function Contact() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Don't wait - contact us today and take the first step towards bringing your construction dreams to life.
+            Don&apos;t wait - contact us today and take the first step towards bringing your construction dreams to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

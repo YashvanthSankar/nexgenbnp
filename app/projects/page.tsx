@@ -344,7 +344,7 @@ export default function Projects() {
             Start Your Next Project
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Ready to bring your vision to life? Let's discuss how we can make your project our next success story.
+            Ready to bring your vision to life? Let&apos;s discuss how we can make your project our next success story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
