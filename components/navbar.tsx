@@ -44,18 +44,24 @@ export function Navbar() {
                 Projects
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-900 dark:bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
+              <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-300 relative group">
+                Contact
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-900 dark:bg-white group-hover:w-full transition-all duration-300"></span>
+              </Link>
             </div>
           </div>
 
           {/* Desktop action buttons */}
           <div className="hidden md:flex items-center gap-3">
             <ThemeToggle />
-            <Button 
-              variant="outline" 
-              className="bg-transparent border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 font-medium"
-            >
-              Contact Us
-            </Button>
+            <Link href="/contact">
+              <Button 
+                variant="outline" 
+                className="bg-transparent border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 font-medium"
+              >
+                Contact Us
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button and theme toggle */}

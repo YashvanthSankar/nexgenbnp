@@ -7,24 +7,24 @@ export default function Home() {
     <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
       <Navbar />
       {/* Hero Section */}
-      <section className="relative h-screen flex flex-col justify-center items-center text-gray-900 dark:text-white bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-950 dark:via-black dark:to-gray-900 transition-all duration-500 overflow-hidden">
+      <section className="relative h-screen flex flex-col justify-center items-center text-gray-900 dark:text-white bg-gray-50 dark:bg-black transition-all duration-500 overflow-hidden">
         {/* Professional overlay for depth */}
-        <div className="absolute inset-0 bg-gradient-to-t from-white/20 via-transparent to-white/10 dark:from-gray-900/60 dark:via-transparent dark:to-gray-800/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white/10 via-transparent to-white/5 dark:from-gray-900/40 dark:via-transparent dark:to-gray-800/20"></div>
         
         {/* Floating elements for both modes */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-gradient-to-r from-blue-200/30 to-purple-200/30 dark:from-gray-700/20 dark:to-gray-600/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-to-r from-indigo-200/20 to-pink-200/20 dark:from-gray-800/15 dark:to-gray-700/15 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-gradient-to-r from-purple-200/25 to-blue-200/25 dark:from-gray-600/20 dark:to-gray-500/20 rounded-full blur-2xl animate-pulse delay-500"></div>
+          <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-gray-200/20 dark:bg-gray-700/15 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gray-300/15 dark:bg-gray-800/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-gray-200/25 dark:bg-gray-600/15 rounded-full blur-2xl animate-pulse delay-500"></div>
         </div>
         
         <div className="relative z-10 text-center max-w-4xl px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white leading-tight">
-            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-white dark:to-gray-100 bg-clip-text text-transparent">
+            <span className="text-gray-900 dark:text-white">
               Building Tomorrow,
             </span>
             <br />
-            <span className="text-gray-800 dark:text-gray-200">
+            <span className="text-gray-700 dark:text-gray-300">
               Today
             </span>
           </h1>
@@ -34,14 +34,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="text-lg px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-white dark:to-gray-100 text-white dark:text-black hover:from-blue-700 hover:to-purple-700 dark:hover:from-gray-100 dark:hover:to-white hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl font-semibold"
+              className="text-lg px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl font-semibold"
             >
               View Our Projects
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-4 text-gray-900 dark:text-white border-2 border-gray-300 dark:border-white bg-white/70 dark:bg-transparent backdrop-blur-sm hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black hover:scale-105 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl"
+              className="text-lg px-8 py-4 text-gray-900 dark:text-white border-2 border-gray-900 dark:border-white bg-white/70 dark:bg-transparent backdrop-blur-sm hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black hover:scale-105 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl"
             >
               Contact Us
             </Button>

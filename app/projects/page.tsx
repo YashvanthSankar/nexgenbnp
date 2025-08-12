@@ -34,7 +34,7 @@ export default function Projects() {
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             {/* Project 1 - Luxury Residential Complex */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 flex items-center justify-center">
+              <div className="h-64 bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-6xl mb-4">🏙️</div>
                   <p className="text-blue-700 dark:text-blue-300 font-medium">Project Image Coming Soon</p>
@@ -91,7 +91,7 @@ export default function Projects() {
 
             {/* Project 2 - Commercial Office Building */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900 dark:to-emerald-800 flex items-center justify-center">
+              <div className="h-64 bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-6xl mb-4">🏢</div>
                   <p className="text-emerald-700 dark:text-emerald-300 font-medium">Project Image Coming Soon</p>
@@ -230,7 +230,7 @@ export default function Projects() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 flex items-center justify-center">
+              <div className="h-48 bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-4xl mb-2">🏘️</div>
                   <p className="text-orange-700 dark:text-orange-300 text-sm">Coming Soon</p>
@@ -255,7 +255,7 @@ export default function Projects() {
 
             {/* Project Card 2 */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-teal-100 to-teal-200 dark:from-teal-900 dark:to-teal-800 flex items-center justify-center">
+              <div className="h-48 bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-4xl mb-2">🏥</div>
                   <p className="text-teal-700 dark:text-teal-300 text-sm">Coming Soon</p>
@@ -280,7 +280,7 @@ export default function Projects() {
 
             {/* Project Card 3 */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-indigo-100 to-indigo-200 dark:from-indigo-900 dark:to-indigo-800 flex items-center justify-center">
+              <div className="h-48 bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-4xl mb-2">🏫</div>
                   <p className="text-indigo-700 dark:text-indigo-300 text-sm">Coming Soon</p>
