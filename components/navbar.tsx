@@ -95,13 +95,18 @@ export function Navbar() {
               <Link href="/projects" className="block text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 text-base font-medium transition-colors duration-300">
                 Projects
               </Link>
+              <Link href="/contact" className="block text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 text-base font-medium transition-colors duration-300">
+                Contact
+              </Link>
               <div className="px-3 py-2">
-                <Button 
-                  variant="outline" 
-                  className="w-full bg-transparent border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 font-medium"
-                >
-                  Contact Us
-                </Button>
+                <Link href="/contact">
+                  <Button 
+                    variant="outline" 
+                    className="w-full bg-transparent border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 font-medium"
+                  >
+                    Contact Us
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
