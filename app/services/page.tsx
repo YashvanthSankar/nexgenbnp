@@ -43,7 +43,7 @@ export default function Services() {
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Residential Construction</h2>
                   <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                    We create homes that reflect your lifestyle. Whether it's a custom luxury estate or a family residence, our focus is on craftsmanship, comfort, and character.
+                    We create homes that reflect your lifestyle. Whether it&apos;s a custom luxury estate or a family residence, our focus is on craftsmanship, comfort, and character.
                   </p>
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-8">
                     Discuss Your Home

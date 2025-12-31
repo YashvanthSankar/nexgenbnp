@@ -43,11 +43,11 @@ export default function About() {
                 Founded in 2001, NEXGEN Builders & Promoters began with a singular vision: to revolutionize the construction industry through uncompromising quality and transparent practices.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                What started as a custom home builder has grown into a multi-disciplinary firm capable of executing complex commercial, industrial, and residential projects. Our journey is defined by the lasting relationships we've built and the skylines we've helped shape.
+                What started as a custom home builder has grown into a multi-disciplinary firm capable of executing complex commercial, industrial, and residential projects. Our journey is defined by the lasting relationships we&apos;ve built and the skylines we&apos;ve helped shape.
               </p>
               <div className="pt-4">
                 <blockquote className="border-l-4 border-blue-600 pl-4 italic text-gray-700 dark:text-gray-300">
-                  "We don't just build structures; we create environments where life happens and businesses thrive."
+                  &quot;We don&apos;t just build structures; we create environments where life happens and businesses thrive.&quot;
                 </blockquote>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                To be the region's premier construction partner, recognized for our sustainable practices and forward-thinking approach. We envision a future where every structure we build enhances the lives of its inhabitants and endures for generations.
+                To be the region&apos;s premier construction partner, recognized for our sustainable practices and forward-thinking approach. We envision a future where every structure we build enhances the lives of its inhabitants and endures for generations.
               </p>
             </div>
           </div>

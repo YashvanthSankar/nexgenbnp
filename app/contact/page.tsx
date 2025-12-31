@@ -16,7 +16,7 @@ export default function Contact() {
             <span>Get in Touch</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            Let's build something
+            Let&apos;s build something
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               extraordinary together
             </span>

@@ -168,7 +168,7 @@ export default function Projects() {
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">Have a vision in mind?</h2>
           <p className="text-gray-400 mb-10 text-lg max-w-2xl mx-auto">
-            See how our diverse portfolio experience can add value to your next development. Let's discuss your requirements.
+            See how our diverse portfolio experience can add value to your next development. Let&apos;s discuss your requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
