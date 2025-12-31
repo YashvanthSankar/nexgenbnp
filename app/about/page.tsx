@@ -1,11 +1,12 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/footer";
 
 export default function About() {
   return (
     <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-white dark:bg-black">
         <div className="max-w-6xl mx-auto px-4">
@@ -14,7 +15,7 @@ export default function About() {
               About NEXGEN Builders & Promoters
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              With over two decades of excellence in construction and real estate development, 
+              With over two decades of excellence in construction and real estate development,
               we&apos;ve built our reputation on quality, innovation, and unwavering commitment to our clients.
             </p>
           </div>
@@ -28,15 +29,15 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                Founded in 2001, NEXGEN Builders & Promoters began as a small family business with a big vision: 
+                Founded in 2001, NEXGEN Builders & Promoters began as a small family business with a big vision:
                 to revolutionize the construction industry through innovative building techniques and uncompromising quality standards.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                From our humble beginnings building custom homes, we&apos;ve grown into one of the region&apos;s most trusted 
+                From our humble beginnings building custom homes, we&apos;ve grown into one of the region&apos;s most trusted
                 construction companies, completing over 500 projects ranging from luxury residences to large-scale commercial developments.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Today, we continue to push the boundaries of what&apos;s possible in construction, 
+                Today, we continue to push the boundaries of what&apos;s possible in construction,
                 embracing sustainable building practices and cutting-edge technology while maintaining the personal touch that sets us apart.
               </p>
             </div>
@@ -77,8 +78,8 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                To deliver exceptional construction and real estate development services that exceed client expectations 
-                while contributing positively to our communities. We are committed to building lasting relationships 
+                To deliver exceptional construction and real estate development services that exceed client expectations
+                while contributing positively to our communities. We are committed to building lasting relationships
                 through integrity, innovation, and superior craftsmanship.
               </p>
             </div>
@@ -91,8 +92,8 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                To be the leading construction and development company in the region, recognized for our innovative 
-                approach, sustainable practices, and unwavering commitment to quality. We envision a future where 
+                To be the leading construction and development company in the region, recognized for our innovative
+                approach, sustainable practices, and unwavering commitment to quality. We envision a future where
                 every structure we build enhances the lives of those who use it.
               </p>
             </div>
@@ -212,14 +213,14 @@ export default function About() {
             Let&apos;s discuss how we can bring your vision to life with our expertise and dedication.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 px-8 py-3"
             >
               Get Started Today
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 px-8 py-3"
             >
@@ -228,6 +229,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

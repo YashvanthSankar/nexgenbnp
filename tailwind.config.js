@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-bricolage)", "sans-serif"],
+      },
       colors: {
         // Custom colors for better dark/light mode
         background: {

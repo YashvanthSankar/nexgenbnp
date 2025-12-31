@@ -1,11 +1,12 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/footer";
 
 export default function Contact() {
   return (
     <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-white dark:bg-black">
         <div className="max-w-6xl mx-auto px-4">
@@ -14,7 +15,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Ready to start your next construction project? Get in touch with our team of experts 
+              Ready to start your next construction project? Get in touch with our team of experts
               and let&apos;s discuss how we can bring your vision to life.
             </p>
           </div>
@@ -57,7 +58,7 @@ export default function Contact() {
                     />
                   </div>
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     Email Address *
@@ -71,7 +72,7 @@ export default function Contact() {
                     placeholder="Enter your email address"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     Phone Number
@@ -84,7 +85,7 @@ export default function Contact() {
                     placeholder="Enter your phone number"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     Project Type
@@ -104,7 +105,7 @@ export default function Contact() {
                     <option value="other">Other</option>
                   </select>
                 </div>
-                
+
                 <div>
                   <label htmlFor="budget" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     Estimated Budget
@@ -123,7 +124,7 @@ export default function Contact() {
                     <option value="discuss">Prefer to discuss</option>
                   </select>
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     Project Details *
@@ -137,8 +138,8 @@ export default function Contact() {
                     placeholder="Tell us about your project requirements, timeline, and any specific details..."
                   ></textarea>
                 </div>
-                
-                <Button 
+
+                <Button
                   type="submit"
                   className="w-full bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 py-3 text-lg font-medium"
                 >
@@ -170,7 +171,7 @@ export default function Contact() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +187,7 @@ export default function Contact() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -202,7 +203,7 @@ export default function Contact() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -225,7 +226,7 @@ export default function Contact() {
               <div className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Quick Actions</h2>
                 <div className="space-y-4">
-                  <Button 
+                  <Button
                     className="w-full bg-emerald-600 text-white hover:bg-emerald-700 transition-all duration-300 justify-start"
                   >
                     <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -233,8 +234,8 @@ export default function Contact() {
                     </svg>
                     Request Free Quote
                   </Button>
-                  
-                  <Button 
+
+                  <Button
                     variant="outline"
                     className="w-full border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 justify-start"
                   >
@@ -243,8 +244,8 @@ export default function Contact() {
                     </svg>
                     Schedule Site Visit
                   </Button>
-                  
-                  <Button 
+
+                  <Button
                     variant="outline"
                     className="w-full border-2 border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white transition-all duration-300 justify-start"
                   >
@@ -253,8 +254,8 @@ export default function Contact() {
                     </svg>
                     Download Brochure
                   </Button>
-                  
-                  <Button 
+
+                  <Button
                     variant="outline"
                     className="w-full border-2 border-orange-600 text-orange-600 dark:text-orange-400 hover:bg-orange-600 hover:text-white transition-all duration-300 justify-start"
                   >
@@ -279,7 +280,7 @@ export default function Contact() {
               Stop by our office for a consultation or to discuss your project in person
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Map Placeholder */}
             <div className="bg-gray-100 dark:bg-gray-800 rounded-xl h-96 flex items-center justify-center">
@@ -289,17 +290,17 @@ export default function Contact() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Google Maps Integration</p>
               </div>
             </div>
-            
+
             {/* Location Details */}
             <div className="space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Easy to Find</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                  Our office is conveniently located in the heart of the business district, 
+                  Our office is conveniently located in the heart of the business district,
                   easily accessible by public transport and with ample parking facilities.
                 </p>
               </div>
-              
+
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
@@ -309,7 +310,7 @@ export default function Contact() {
                   </div>
                   <span className="text-gray-600 dark:text-gray-300">5 minutes from Metro Station</span>
                 </div>
-                
+
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -318,7 +319,7 @@ export default function Contact() {
                   </div>
                   <span className="text-gray-600 dark:text-gray-300">Free parking available</span>
                 </div>
-                
+
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -327,7 +328,7 @@ export default function Contact() {
                   </div>
                   <span className="text-gray-600 dark:text-gray-300">Wheelchair accessible</span>
                 </div>
-                
+
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -337,9 +338,9 @@ export default function Contact() {
                   <span className="text-gray-600 dark:text-gray-300">Central business location</span>
                 </div>
               </div>
-              
+
               <div className="pt-4">
-                <Button 
+                <Button
                   className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300"
                 >
                   Get Directions
@@ -359,44 +360,44 @@ export default function Contact() {
               Common questions about our services and processes
             </p>
           </div>
-          
+
           <div className="space-y-6">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
                 How long does a typical construction project take?
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Project timelines vary based on scope and complexity. Residential projects typically take 8-12 months, 
+                Project timelines vary based on scope and complexity. Residential projects typically take 8-12 months,
                 while commercial projects can range from 12-24 months. We provide detailed timelines during the planning phase.
               </p>
             </div>
-            
+
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
                 Do you provide free consultations and quotes?
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Yes, we offer free initial consultations and detailed project quotes. Our team will assess your requirements 
+                Yes, we offer free initial consultations and detailed project quotes. Our team will assess your requirements
                 and provide a comprehensive estimate with no hidden costs.
               </p>
             </div>
-            
+
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
                 What permits and approvals do you handle?
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                We handle all necessary permits, approvals, and regulatory compliance for your project. 
+                We handle all necessary permits, approvals, and regulatory compliance for your project.
                 Our team is experienced with local building codes and municipal requirements.
               </p>
             </div>
-            
+
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
                 Do you offer warranty on your construction work?
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Yes, we provide comprehensive warranties on all our construction work. Structural work comes with 
+                Yes, we provide comprehensive warranties on all our construction work. Structural work comes with
                 a 10-year warranty, while finishes and fixtures have a 2-year warranty.
               </p>
             </div>
@@ -414,14 +415,14 @@ export default function Contact() {
             Don&apos;t wait - contact us today and take the first step towards bringing your construction dreams to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 px-8 py-3"
             >
               Start Your Project
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 px-8 py-3"
             >
@@ -430,6 +431,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

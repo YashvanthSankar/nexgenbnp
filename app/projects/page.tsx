@@ -1,11 +1,12 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/footer";
 
 export default function Projects() {
   return (
     <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-white dark:bg-black">
         <div className="max-w-6xl mx-auto px-4">
@@ -14,7 +15,7 @@ export default function Projects() {
               Our Projects
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Explore our portfolio of successful projects that showcase our commitment to quality, 
+              Explore our portfolio of successful projects that showcase our commitment to quality,
               innovation, and excellence in construction and development.
             </p>
           </div>
@@ -30,7 +31,7 @@ export default function Projects() {
               Highlighting some of our most successful and impactful constructions
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             {/* Project 1 - Luxury Residential Complex */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
@@ -49,8 +50,8 @@ export default function Projects() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Skyline Luxury Residences</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                  A premium 45-unit residential complex featuring modern amenities, sustainable design, 
-                  and panoramic city views. This project exemplifies our commitment to luxury living 
+                  A premium 45-unit residential complex featuring modern amenities, sustainable design,
+                  and panoramic city views. This project exemplifies our commitment to luxury living
                   with environmental consciousness.
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -106,8 +107,8 @@ export default function Projects() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">TechHub Corporate Center</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                  A state-of-the-art 8-story office building designed for modern businesses. 
-                  Features flexible workspaces, advanced technology infrastructure, and 
+                  A state-of-the-art 8-story office building designed for modern businesses.
+                  Features flexible workspaces, advanced technology infrastructure, and
                   LEED Gold certification for sustainability.
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -158,7 +159,7 @@ export default function Projects() {
               Diverse expertise across multiple construction sectors
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Residential Projects */}
             <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border-2 border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-600 transition-all duration-300 hover:shadow-lg">
@@ -170,8 +171,8 @@ export default function Projects() {
                 Custom homes, luxury estates, and residential complexes designed for modern living.
               </p>
               <div className="text-blue-600 dark:text-blue-400 text-sm font-medium mb-4">15+ Completed Projects</div>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="w-full border-2 border-blue-500 text-blue-600 dark:text-blue-400 hover:bg-blue-500 hover:text-white transition-all duration-300"
               >
                 View Projects
@@ -188,8 +189,8 @@ export default function Projects() {
                 Office buildings, retail spaces, and commercial developments for business success.
               </p>
               <div className="text-emerald-600 dark:text-emerald-400 text-sm font-medium mb-4">12+ Completed Projects</div>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="w-full border-2 border-emerald-500 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500 hover:text-white transition-all duration-300"
               >
                 View Projects
@@ -206,8 +207,8 @@ export default function Projects() {
                 Warehouses, manufacturing facilities, and industrial complexes built for efficiency.
               </p>
               <div className="text-purple-600 dark:text-purple-400 text-sm font-medium mb-4">8+ Completed Projects</div>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="w-full border-2 border-purple-500 text-purple-600 dark:text-purple-400 hover:bg-purple-500 hover:text-white transition-all duration-300"
               >
                 View Projects
@@ -226,7 +227,7 @@ export default function Projects() {
               Latest projects showcasing our continued excellence
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -315,7 +316,7 @@ export default function Projects() {
               Numbers that reflect our commitment to excellence
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">50+</div>
@@ -347,14 +348,14 @@ export default function Projects() {
             Ready to bring your vision to life? Let&apos;s discuss how we can make your project our next success story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 px-8 py-3"
             >
               Get Project Quote
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 px-8 py-3"
             >
@@ -363,6 +364,8 @@ export default function Projects() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

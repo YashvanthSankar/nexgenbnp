@@ -1,11 +1,12 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/footer";
 
 export default function Services() {
   return (
     <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-white dark:bg-black">
         <div className="max-w-6xl mx-auto px-4">
@@ -14,7 +15,7 @@ export default function Services() {
               Our Services
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              From concept to completion, we offer comprehensive construction and development services 
+              From concept to completion, we offer comprehensive construction and development services
               tailored to meet your unique needs and exceed your expectations.
             </p>
           </div>
@@ -32,7 +33,7 @@ export default function Services() {
               </div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Residential Construction</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                Create your dream home with our custom residential construction services. From luxury estates to 
+                Create your dream home with our custom residential construction services. From luxury estates to
                 cozy family homes, we bring your vision to life with meticulous attention to detail.
               </p>
               <div className="space-y-3 mb-6">
@@ -73,7 +74,7 @@ export default function Services() {
               </div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Commercial Buildings</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                Build for success with our commercial construction expertise. We specialize in creating functional, 
+                Build for success with our commercial construction expertise. We specialize in creating functional,
                 attractive spaces that enhance productivity and reflect your brand identity.
               </p>
               <div className="space-y-3 mb-6">
@@ -137,8 +138,8 @@ export default function Services() {
                 <li>• Construction management</li>
                 <li>• Marketing and sales support</li>
               </ul>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="sm"
                 className="w-full border-2 border-purple-500 text-purple-600 dark:text-purple-400 hover:bg-purple-500 hover:text-white transition-all duration-300"
               >
@@ -163,8 +164,8 @@ export default function Services() {
                 <li>• Custom furniture and fixtures</li>
                 <li>• Lighting and color consultation</li>
               </ul>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="sm"
                 className="w-full border-2 border-orange-500 text-orange-600 dark:text-orange-400 hover:bg-orange-500 hover:text-white transition-all duration-300"
               >
@@ -189,8 +190,8 @@ export default function Services() {
                 <li>• Quality assurance and inspections</li>
                 <li>• Vendor and contractor coordination</li>
               </ul>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="sm"
                 className="w-full border-2 border-teal-500 text-teal-600 dark:text-teal-400 hover:bg-teal-500 hover:text-white transition-all duration-300"
               >
@@ -215,8 +216,8 @@ export default function Services() {
                 <li>• Building code compliance review</li>
                 <li>• Value engineering solutions</li>
               </ul>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="sm"
                 className="w-full border-2 border-indigo-500 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-500 hover:text-white transition-all duration-300"
               >
@@ -287,14 +288,14 @@ export default function Services() {
             Contact us today to discuss your project and discover how we can bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 px-8 py-3"
             >
               Request a Quote
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 px-8 py-3"
             >
@@ -303,6 +304,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }
