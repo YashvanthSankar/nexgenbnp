@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${bricolage.variable} font-sans antialiased bg-white dark:bg-black text-black dark:text-white transition-colors duration-300`}
+        className={`${bricolage.className} ${bricolage.variable} antialiased bg-white dark:bg-black text-black dark:text-white transition-colors duration-300`}
       >
         <ThemeProvider>
           <ScrollProgress />
